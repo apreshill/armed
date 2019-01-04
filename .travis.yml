@@ -19,12 +19,12 @@ script:
 
 deploy:
   - provider: script
-    script: netlify deploy --dir _book --prod --message $DEPLOY_MSG
+    script: netlify deploy --dir _book --prod --message "$DEPLOY_MSG"
     skip_cleanup: true
     on:
       branch: master
   - provider: script
-    script: netlify deploy --dir _book --message $DEPLOY_MSG
+    script: netlify deploy --dir _book --message "$DEPLOY_MSG"
     skip_cleanup: true
     on:
       all_branches: true
