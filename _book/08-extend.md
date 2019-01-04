@@ -1,1 +1,0 @@
-# Extending R Markdown {#extend}
