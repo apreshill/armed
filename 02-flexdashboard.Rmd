@@ -1,3 +1,8 @@
 # flexdashboard
 
 Your notes go here...
+
+
+hi does [this work](#welcome)
+
+Chapter \@ref(welcome)

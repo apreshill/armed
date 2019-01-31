@@ -1,5 +1,6 @@
 # (PART\*) Day 1: AM session {-}
 
-# xaringan
+# xaringan {-#slides}
 
 Your notes go here...
+

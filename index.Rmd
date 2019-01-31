@@ -24,14 +24,16 @@ twitter-handle: apreshill
 ---
 
 
-# Welcome {-}
+# Welcome {-#welcome}
 
 
 ```{r cover-image, echo = FALSE}
 knitr::include_graphics("images/books.jpg")
 ```
 
-This is a minimal example of using the bookdown package to write a book. The output format for this example is `bookdown::gitbook`.
+
+
+Hello! This is a minimal example of using the bookdown package to write a book. The output format for this example is `bookdown::gitbook`.
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
@@ -82,6 +84,8 @@ For example, using the `cover-image` YAML parameter does **not** add a visible c
 You can use any of these YAML parameters with R code, using the rmarkdown package function `metadata`. For example, here I'll show you the title again with inline code: `r rmarkdown::metadata$title`
 
 You can also set up custom parameters in your YAML to use in the text of your book with inline R code. For example, this book was last updated on `r params$last_updated`, and was most recently used for the `r params$event` in `r params$place`.
+
+
 
 
 
